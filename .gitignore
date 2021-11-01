@@ -3,8 +3,11 @@
 
 # Object files
 *.o
-# dont ignore this file
+# dont ignore these files
 !binapploader.o
+!binapploader_nvm3.o
+!libbluetooth.a
+!libbluetooth_mesh.a
 *.ko
 *.obj
 *.elf
@@ -29,6 +32,7 @@
 !libbluetooth.a
 !libmbedtls.a
 !librail_efr32xg13_gcc_release.a
+!libnvm3_CM4_gcc.a
 *.la
 *.lo
 
